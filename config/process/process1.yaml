@@ -1,0 +1,11 @@
+use_columns: 
+  - FISCAL_YR
+  - FISCAL_MTH
+  - DEPT_NAME
+  - DIV_NAME
+  - MERCHANT
+  - CAT_DESC
+  - TRANS_DT
+  - AMT
+  - DayOfWeek
+  - isWeekday
