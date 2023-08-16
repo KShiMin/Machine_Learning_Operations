@@ -5,10 +5,13 @@ description = ""
 authors = ["ShiMin"]
 
 [tool.poetry.dependencies]
-python = "3.10.11"
+python = "3.9.17"
 dvc = "^2.10.0"
 hydra-core = "^1.1.1"
 pdoc3 = "^0.10.0"
+kaleido = "0.2.1"
+pycaret = "3.0.0"
+pandas-profiling = "^3.6.6"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
