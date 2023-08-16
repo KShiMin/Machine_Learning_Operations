@@ -1,0 +1,10 @@
+? ''
+: ? ''
+  : ? ''
+    : config:
+        data:
+          raw: data/raw/sample.csv
+          processed: data/processed/cleanAnomaly.csv
+          final: data/final/final.csv
+        pipeline:
+          pipeline1: models/iforest_pipeline
