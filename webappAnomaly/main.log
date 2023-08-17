@@ -1,0 +1,804 @@
+[2023-08-15 23:05:09,957][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-15 23:05:09,960][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2023-08-15 23:05:09,960][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:05:15,688][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:05:15,709][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:05:17,690][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:05:17] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:05:17,735][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:05:17] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:05:17,766][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:05:17] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:05:17,830][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:05:17] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:05:17,842][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:05:17] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:05:32,245][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:05:33,925][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:06:02,358][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-15 23:06:02,360][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2023-08-15 23:06:02,361][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:06:06,940][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:06:06,948][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:06:09,081][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:06:09] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:06:09,132][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:06:09] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:06:09,144][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:06:09] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:06:09,164][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:06:09] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:06:09,211][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:06:09] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:10:18,063][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:10:18,940][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:10:25,715][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:10:25,715][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:10:28,147][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:10:28] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:10:28,180][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:10:28] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:10:28,190][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:10:28] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:10:28,219][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:10:28] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:10:28,231][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:10:28] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:12:55,323][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-15 23:12:56,407][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:13:00,459][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:13:00,459][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:13:15,457][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:13:16,435][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:13:24,286][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:13:24,301][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:13:27,679][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:13:27] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:13:27,726][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:13:27] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:13:27,736][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:13:27] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:13:27,746][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:13:27] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:13:27,758][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:13:27] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:14:25,398][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-15 23:14:26,894][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:14:31,841][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:14:31,845][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:15:43,386][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-15 23:15:46,065][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:15:50,542][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:15:50,562][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:15:52,345][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:15:52] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:15:52,389][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:15:52] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:15:52,393][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:15:52] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:15:52,419][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:15:52] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:15:52,429][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:15:52] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:18:50,480][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:18:51,649][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:19:36,521][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-15 23:19:36,521][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2023-08-15 23:19:36,521][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:19:39,897][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:19:39,903][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:19:41,597][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:19:41] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:19:41,633][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:19:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:19:41,641][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:19:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:19:41,653][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:19:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:19:41,708][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:19:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:20:53,819][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-15 23:20:54,931][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:21:00,058][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:21:00,058][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:21:02,422][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:21:02] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:21:02,470][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:21:02] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:21:02,486][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:21:02] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:21:02,510][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:21:02] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:21:02,527][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:21:02] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:21:40,872][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:21:41,626][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:21:45,471][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:21:45,477][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:24:57,205][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-15 23:25:00,232][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:25:04,706][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:25:04,706][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:25:51,203][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-15 23:25:51,203][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2023-08-15 23:25:51,211][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:25:55,856][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:25:55,865][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:25:58,263][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:25:58] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:25:58,341][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:25:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:25:58,349][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:25:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:25:58,373][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:25:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:25:58,429][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:25:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:31:12,718][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-15 23:31:14,522][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:31:19,323][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:31:19,337][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:31:21,042][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:31:21] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:31:21,074][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:31:21] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:31:21,090][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:31:21] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:31:21,114][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:31:21] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:31:21,127][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:31:21] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:33:25,919][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:33:27,002][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:33:33,007][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:33:33,021][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:33:55,035][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-15 23:33:55,991][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:34:00,111][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:34:00,111][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:34:06,307][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:34:06] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:34:06,355][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:34:06] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:34:06,375][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:34:06] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:34:06,397][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:34:06] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:34:06,405][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:34:06] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:36:11,522][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:36:13,983][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:36:18,567][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:36:18,575][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:36:20,356][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:36:20] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:36:20,407][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:36:20] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:36:20,409][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:36:20] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:36:20,429][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:36:20] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:36:20,444][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:36:20] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:40:33,293][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:40:35,343][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:40:39,980][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:40:39,997][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:40:41,698][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:40:41] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:40:41,754][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:40:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:40:41,755][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:40:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:40:41,772][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:40:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:40:41,819][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:40:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:42:01,315][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:42:02,615][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:42:06,525][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:42:06,541][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:43:33,617][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:43:33] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:43:33,656][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:43:33,669][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:43:33] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:43:34,780][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:43:39,779][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:43:39,794][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:43:41,935][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:43:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:43:41,942][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:43:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:43:41,958][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:43:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:43:53,277][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:43:54,227][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:43:59,092][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:43:59,100][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:44:03,336][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:44:04,330][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:44:09,178][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:44:09,178][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:44:11,334][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:44:11] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:44:11,381][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:44:11] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:44:11,428][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:44:11] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:44:11,460][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:44:11] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:44:11,476][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:44:11] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:44:29,430][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:44:30,648][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:44:35,537][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:44:35,537][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:44:37,533][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:44:37] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:44:37,565][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:44:37] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:44:37,580][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:44:37] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:44:37,601][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:44:37] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:44:37,613][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:44:37] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:45:29,173][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:45:30,119][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:45:34,583][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:45:34,603][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:45:36,666][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:45:36] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:45:36,713][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:45:36] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:45:36,739][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:45:36] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:45:36,768][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:45:36] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:45:36,782][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:45:36] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:47:06,263][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-15 23:47:07,281][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:47:11,468][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:47:11,476][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:47:18,003][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:47:18,983][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:47:23,000][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:47:23,013][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:47:24,751][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:47:24] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:47:24,767][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:47:24] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:47:24,787][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:47:24] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:47:24,809][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:47:24] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:47:24,820][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:47:24] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:48:50,827][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:48:50] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:48:50,871][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:48:50] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:48:50,875][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:48:50] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:48:50,903][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:48:50] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:48:50,916][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:48:50] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:48:51,878][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-15 23:48:52,779][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:48:57,567][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:48:57,581][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:54:27,373][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-15 23:54:28,599][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:54:32,736][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:54:32,752][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:54:35,033][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:54:35] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:54:35,065][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:54:35] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:54:35,096][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:54:35] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:54:35,165][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:54:35] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:54:35,184][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:54:35] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:55:48,209][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-15 23:55:49,372][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:55:53,324][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:55:53,340][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:56:06,114][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:56:06] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:56:06,166][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:56:06] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:56:06,179][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:56:06] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:56:06,212][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:56:06] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:56:06,225][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:56:06] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:56:32,658][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:56:33,851][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:56:39,000][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:56:39,000][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:56:41,304][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:56:41] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:56:41,352][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:56:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:56:41,352][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:56:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:56:41,380][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:56:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:56:41,396][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:56:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:57:17,952][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:57:19,067][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:57:23,646][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:57:23,648][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:57:26,305][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-15 23:57:27,196][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:57:31,998][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:57:32,007][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:57:34,195][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:57:34] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:57:34,237][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:57:34] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:57:34,255][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:57:34] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:57:34,270][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:57:34] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:57:34,284][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:57:34] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:57:58,792][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:57:58] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:57:58,841][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:57:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:57:58,849][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:57:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:57:58,866][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:57:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:57:58,874][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:57:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:57:59,493][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-15 23:58:00,731][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:58:05,718][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:58:05,782][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:59:03,803][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:03] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:59:03,841][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:03] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:59:03,857][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:03] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:59:03,882][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:03] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:59:03,910][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:03] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:59:05,641][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:59:06,713][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:59:11,157][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:59:11,165][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:59:13,698][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:59:14,503][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:59:18,962][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:59:18,962][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:59:22,815][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:22] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:59:22,847][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:22] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:59:22,851][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:22] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:59:22,861][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:22] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:59:22,871][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:22] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:59:22,879][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:59:23,840][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:59:28,307][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:59:28,314][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:59:49,735][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-15 23:59:50,725][werkzeug][INFO] -  * Restarting with stat
+[2023-08-15 23:59:55,180][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-15 23:59:55,195][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-15 23:59:57,512][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:57] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-15 23:59:57,588][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:57] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 23:59:57,591][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:57] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 23:59:57,630][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:57] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 23:59:57,650][werkzeug][INFO] - 127.0.0.1 - - [15/Aug/2023 23:59:57] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:00:05,659][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 00:00:06,847][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:00:11,487][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:00:11,487][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:00:13,219][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:00:13] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:00:13,259][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:00:13] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:00:13,270][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:00:13] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:00:13,298][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:00:13] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:00:13,312][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:00:13] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:00:42,234][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 00:00:43,638][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:00:48,724][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:00:48,724][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:00:50,828][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:00:50] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:00:50,901][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:00:50] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:00:50,902][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:00:50] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:00:50,934][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:00:50] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:00:50,949][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:00:50] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:01:26,509][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 00:01:27,691][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:01:32,910][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:01:32,918][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:01:35,040][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:01:35] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:01:35,098][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:01:35] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:01:35,098][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:01:35] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:01:35,122][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:01:35] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:01:35,145][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:01:35] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:02:59,918][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 00:03:01,315][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:03:05,687][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:03:05,687][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:03:07,533][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:03:07] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:03:07,584][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:03:07] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:03:07,613][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:03:07] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:03:07,643][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:03:07] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:03:07,659][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:03:07] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:03:15,478][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 00:03:16,690][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:03:21,890][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:03:21,895][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:03:23,810][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:03:23] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:03:23,842][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:03:23] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:03:23,860][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:03:23] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:03:23,878][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:03:23] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:03:23,889][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:03:23] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:04:52,957][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 00:04:53,934][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:04:58,361][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:04:58,370][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:05:00,630][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:05:00] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:05:00,668][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:05:00] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:05:00,671][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:05:00] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:05:00,687][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:05:00] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:05:00,701][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:05:00] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:05:36,495][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 00:05:37,614][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:05:41,929][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:05:41,929][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:06:47,057][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 00:06:48,144][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:06:52,561][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:06:52,561][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:07:02,167][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 00:07:03,694][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:07:08,805][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:07:08,813][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:07:11,051][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:07:11] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:07:11,107][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:07:11] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:07:11,123][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:07:11] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:07:11,147][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:07:11] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:07:11,165][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:07:11] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:09:46,991][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 00:09:48,739][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:09:53,056][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:09:53,073][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:10:02,209][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:10:02] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:10:02,248][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:10:02] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:10:02,260][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:10:02] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:10:02,319][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:10:02] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:10:02,344][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:10:02] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:10:32,430][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:10:32] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:10:32,500][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:10:32] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:10:32,501][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:10:32] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:10:32,530][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:10:32] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:10:32,545][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:10:32] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:10:34,323][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 00:10:35,157][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:10:39,734][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:10:39,737][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:14:21,188][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 00:14:23,542][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:14:27,686][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:14:27,695][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:14:29,479][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:14:29] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:14:29,522][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:14:29] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:14:29,534][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:14:29] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:14:29,550][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:14:29] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:14:29,601][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:14:29] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:17:23,088][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 00:17:25,755][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:17:31,097][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:17:31,113][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:17:33,683][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:17:33] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:17:33,749][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:17:33] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:17:33,754][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:17:33] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:17:33,776][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:17:33] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:17:33,845][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:17:33] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:18:07,598][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 00:18:08,923][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:18:14,367][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:18:14,367][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:18:16,885][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:18:16] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:18:16,939][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:18:16] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:18:16,942][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:18:16] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:18:16,967][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:18:16] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:18:16,985][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:18:16] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:19:00,232][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:19:00] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:19:00,269][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:19:00] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:19:00,277][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:19:00] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:19:00,297][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:19:00] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:19:00,310][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:19:00] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:19:01,504][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 00:19:03,210][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:19:07,864][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:19:07,872][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:19:10,309][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:19:10] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:19:10,346][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:19:10] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:19:10,357][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:19:10] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:19:10,380][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:19:10] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:19:10,398][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:19:10] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:20:08,877][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 00:20:10,116][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 00:20:14,949][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 00:20:14,959][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 00:20:17,103][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:20:17] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 00:20:17,147][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:20:17] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 00:20:17,163][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:20:17] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 00:20:17,186][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:20:17] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 00:20:17,201][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 00:20:17] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:09:46,058][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-16 11:09:46,058][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2023-08-16 11:09:46,066][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:09:50,366][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:09:50,374][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:13:48,792][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:13:48] "GET /anomalyResults HTTP/1.1" 200 -
+[2023-08-16 11:13:48,854][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:13:48] "GET /static/styles/style.css HTTP/1.1" 200 -
+[2023-08-16 11:13:49,029][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:13:49] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 11:13:49,252][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:13:49] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 11:13:49,344][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:13:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-08-16 11:13:57,342][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:13:57] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:13:57,386][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:13:57] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:13:57,398][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:13:57] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:13:57,412][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:13:57] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:16:41,848][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:16:43,318][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:16:49,238][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:16:49,260][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:25:35,360][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 11:25:37,062][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:25:41,074][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:25:41,082][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:25:42,877][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:25:42] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:25:42,899][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:25:42] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:25:42,943][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:25:42] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:25:42,993][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:25:42] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:25:43,007][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:25:43] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:26:29,139][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:26:30,449][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:26:35,270][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:26:35,280][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:26:37,229][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:26:37] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:26:37,282][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:26:37] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:26:37,312][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:26:37] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:26:37,333][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:26:37] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:26:37,341][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:26:37] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:26:50,543][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:26:51,706][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:26:56,481][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:26:56,496][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:26:58,792][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:26:58] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:26:58,832][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:26:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:26:58,840][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:26:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:26:58,864][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:26:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:26:58,880][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:26:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:27:45,483][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:27:46,712][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:27:51,344][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:27:51,344][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:27:53,130][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:27:53] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:27:53,177][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:27:53] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:27:53,177][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:27:53] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:27:53,241][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:27:53] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:27:53,257][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:27:53] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:30:01,143][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:30:03,229][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:30:07,815][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:30:07,821][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:30:09,688][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:09] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:30:09,729][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:09] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:30:09,762][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:09] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:30:09,775][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:09] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:30:09,814][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:09] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:30:27,322][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:30:28,651][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:30:33,175][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:30:33,192][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:30:35,270][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:35] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:30:35,325][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:35] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:30:35,325][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:35] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:30:35,350][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:35] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:30:35,366][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:35] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:30:49,820][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:49] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:30:49,862][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:49] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:30:49,869][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:49] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:30:49,883][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:49] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:30:49,904][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:30:49] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:30:49,980][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:30:51,124][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:32:11,524][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-16 11:32:11,527][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2023-08-16 11:32:11,527][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:32:16,169][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:32:16,177][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:32:18,641][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:32:18] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:32:18,641][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:32:18] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:32:18,689][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:32:18] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:32:18,718][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:32:18] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:32:18,768][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:32:18] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:32:18,787][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:32:18] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:38:17,313][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 11:38:18,131][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:38:22,428][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:38:22,437][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:38:35,295][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:38:37,340][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:38:41,990][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:38:41,998][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:38:43,942][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:38:43] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:38:44,003][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:38:44] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:38:44,004][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:38:44] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:38:44,023][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:38:44] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:38:44,047][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:38:44] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:38:55,156][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 11:38:56,303][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:39:01,411][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:39:01,422][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:39:03,172][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:39:03] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:39:03,219][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:39:03] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:39:03,230][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:39:03] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:39:03,253][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:39:03] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:39:03,264][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:39:03] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:40:14,941][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:40:14] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:40:14,990][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:40:14] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:40:14,994][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:40:14] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:40:15,023][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:40:15] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:40:15,041][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:40:15] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:40:15,088][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 11:40:16,297][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:40:20,228][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:40:20,244][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:41:46,260][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 11:41:47,340][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:41:51,988][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:41:51,988][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:41:54,254][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:41:54] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:41:54,288][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:41:54] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:41:54,295][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:41:54] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:41:54,318][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:41:54] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:41:54,325][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:41:54] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:43:08,795][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:43:09,999][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:43:16,018][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:43:16,018][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:43:18,359][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:43:18] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:43:18,421][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:43:18] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:43:18,424][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:43:18] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:43:18,447][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:43:18] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:43:18,461][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:43:18] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:43:38,652][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-16 11:43:38,653][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2023-08-16 11:43:38,653][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:43:43,138][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:43:43,146][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:43:45,270][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:43:45] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:43:45,357][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:43:45] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:43:45,360][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:43:45] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:43:45,381][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:43:45] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:43:45,400][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:43:45] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:44:15,979][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:15] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:44:16,015][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:16] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:44:16,025][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:16] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:44:16,053][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:16] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:44:16,064][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:16] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:44:16,811][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 11:44:17,872][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:44:22,210][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:44:22,222][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:44:29,404][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:44:30,487][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:44:35,426][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:44:35,426][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:44:37,428][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:37] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:44:37,475][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:37] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:44:37,476][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:37] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:44:37,493][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:37] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:44:37,509][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:37] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:44:44,894][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:44:46,102][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:44:50,695][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:44:50,695][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:44:52,850][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:52] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:44:52,898][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:52] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:44:52,912][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:52] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:44:52,932][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:52] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:44:52,942][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:44:52] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:45:01,320][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:45:02,380][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:45:06,288][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:45:06,304][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:45:14,959][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 11:45:16,219][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:45:20,572][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:45:20,580][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:45:22,652][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:45:22] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:45:22,705][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:45:22] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:45:22,708][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:45:22] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:45:22,731][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:45:22] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:45:22,745][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:45:22] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:45:39,837][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 11:45:41,232][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:45:45,709][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:45:45,714][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:45:47,866][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:45:47] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:45:47,899][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:45:47] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:45:47,907][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:45:47] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:45:47,926][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:45:47] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:45:47,943][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:45:47] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:46:12,287][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:46:12] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:46:12,312][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:46:12] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:46:12,322][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:46:12] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:46:12,353][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:46:12] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:46:12,361][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:46:12] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:48:21,827][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 11:48:24,252][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:48:29,154][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:48:29,154][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:48:31,424][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:48:31] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:48:31,481][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:48:31] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:48:31,501][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:48:31] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:48:31,544][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:48:31] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:48:31,627][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:48:31] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:48:42,781][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:48:43,537][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:48:48,571][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:48:48,594][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:48:50,755][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:48:50] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:48:50,813][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:48:50] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:48:50,813][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:48:50] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:48:50,837][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:48:50] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:48:50,868][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:48:50] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:49:01,892][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 11:49:02,746][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:49:07,718][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:49:07,718][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:49:09,636][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:49:09] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:49:09,696][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:49:09] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:49:09,705][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:49:09] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:49:09,728][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:49:09] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:49:09,750][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:49:09] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:49:23,844][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:49:24,938][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:49:29,728][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:49:29,748][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:49:31,855][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:49:31] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:49:31,916][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:49:31] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:49:31,934][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:49:31] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:49:31,964][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:49:31] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:49:32,000][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:49:32] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:50:49,711][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:50:50,705][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:50:55,610][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:50:55,614][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:50:58,067][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:50:58] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:50:58,129][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:50:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:50:58,137][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:50:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:50:58,171][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:50:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:50:58,200][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:50:58] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:52:07,505][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 11:52:08,802][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:52:13,124][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:52:13,142][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:52:15,222][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:52:15] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:52:15,245][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:52:15] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:52:15,263][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:52:15] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:52:15,342][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:52:15] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:52:15,365][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:52:15] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:53:31,257][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:53:31] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:53:31,307][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:53:31] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:53:31,314][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:53:31] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:53:31,342][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:53:31] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:53:31,356][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:53:31] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:53:41,739][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:53:41] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:53:41,778][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:53:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:53:41,787][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:53:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:53:41,805][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:53:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:53:41,819][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:53:41] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:55:49,469][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 11:55:50,516][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:55:54,525][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:55:54,533][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:56:09,965][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\main.py', reloading
+[2023-08-16 11:56:12,476][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:56:16,885][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:56:16,901][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:56:19,102][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:56:19] "[35m[1mGET /anomalyDetectionInput HTTP/1.1[0m" 500 -
+[2023-08-16 11:56:19,161][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:56:19] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:56:19,162][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:56:19] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-16 11:56:19,188][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:56:19] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:56:19,207][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:56:19] "[36mGET /anomalyDetectionInput?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-16 11:56:48,008][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:56:48] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-16 11:56:48,045][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:56:48] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-08-16 11:56:48,112][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:56:48] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 11:56:48,525][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 11:56:48] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 11:57:05,711][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 11:57:06,760][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:57:12,283][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:57:12,293][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 11:57:41,945][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-16 11:57:41,946][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2023-08-16 11:57:41,947][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 11:57:44,621][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 11:57:44,624][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 14:51:46,307][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-16 14:51:46,307][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2023-08-16 14:51:46,316][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 14:51:50,761][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 14:51:50,765][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 14:51:53,336][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:51:53] "[33mGET / HTTP/1.1[0m" 404 -
+[2023-08-16 14:51:53,426][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:51:53] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-08-16 14:51:53,991][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:51:53] "[33mGET /static/images/logo/emoji.png HTTP/1.1[0m" 404 -
+[2023-08-16 14:51:54,027][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:51:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-08-16 14:51:55,296][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:51:55] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-16 14:51:55,333][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:51:55] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-08-16 14:51:55,342][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:51:55] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 14:51:55,393][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:51:55] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 14:53:12,205][werkzeug][INFO] -  * Detected change in 'C:\\Users\\zowie\\OneDrive\\Desktop\\MLOPS\\cookietest\\webapp\\forms.py', reloading
+[2023-08-16 14:53:13,187][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 14:53:18,245][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 14:53:18,253][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 14:53:21,904][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:53:21] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-16 14:53:21,950][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:53:21] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-08-16 14:53:21,959][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:53:21] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 14:53:22,001][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:53:22] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 14:54:02,967][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:54:02] "[32mPOST /anomalyDetectionInput HTTP/1.1[0m" 302 -
+[2023-08-16 14:54:02,978][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:54:02] "GET /anomalyResults HTTP/1.1" 200 -
+[2023-08-16 14:54:03,022][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:54:03] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-08-16 14:54:03,030][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:54:03] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 14:54:03,069][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:54:03] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 14:54:05,268][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:54:05] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-16 14:54:05,309][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 14:54:05] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:14:49,226][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-16 15:14:49,226][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2023-08-16 15:14:49,226][werkzeug][INFO] -  * Restarting with stat
+[2023-08-16 15:14:53,168][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-16 15:14:53,175][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-16 15:14:55,626][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:14:55] "[33mGET / HTTP/1.1[0m" 404 -
+[2023-08-16 15:14:55,661][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:14:55] "GET /static/styles/style.css HTTP/1.1" 200 -
+[2023-08-16 15:14:56,265][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:14:56] "[33mGET /static/images/logo/emoji.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:14:59,087][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:14:59] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-16 15:14:59,136][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:14:59] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-08-16 15:14:59,149][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:14:59] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:14:59,198][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:14:59] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:15:52,115][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:15:52] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-16 15:15:52,157][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:15:52] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-08-16 15:15:52,181][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:15:52] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:15:52,260][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:15:52] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:16:06,340][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:06] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-16 15:16:06,386][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:06] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-08-16 15:16:06,397][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:06] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:16:06,490][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:06] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:16:13,284][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:13] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-16 15:16:13,336][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:13] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-08-16 15:16:13,352][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:13] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:16:13,386][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:13] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:16:31,584][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:31] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-16 15:16:31,637][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:31] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-08-16 15:16:31,653][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:31] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:16:31,694][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:31] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:16:52,618][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:52] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-16 15:16:52,666][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:52] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-08-16 15:16:52,682][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:52] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:16:52,731][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:16:52] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:17:01,450][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:17:01] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-16 15:17:01,506][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:17:01] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-08-16 15:17:01,516][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:17:01] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:17:01,587][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:17:01] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:17:17,047][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:17:17] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-16 15:17:17,090][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:17:17] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+[2023-08-16 15:17:17,095][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:17:17] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-16 15:17:17,160][werkzeug][INFO] - 127.0.0.1 - - [16/Aug/2023 15:17:17] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-17 09:19:17,940][werkzeug][INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-17 09:19:17,940][werkzeug][INFO] - [33mPress CTRL+C to quit[0m
+[2023-08-17 09:19:17,940][werkzeug][INFO] -  * Restarting with stat
+[2023-08-17 09:19:22,096][werkzeug][WARNING] -  * Debugger is active!
+[2023-08-17 09:19:22,113][werkzeug][INFO] -  * Debugger PIN: 527-343-539
+[2023-08-17 09:19:27,145][werkzeug][INFO] - 127.0.0.1 - - [17/Aug/2023 09:19:27] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-17 09:19:27,154][werkzeug][INFO] - 127.0.0.1 - - [17/Aug/2023 09:19:27] "GET /anomalyDetectionInput HTTP/1.1" 200 -
+[2023-08-17 09:19:27,208][werkzeug][INFO] - 127.0.0.1 - - [17/Aug/2023 09:19:27] "GET /static/styles/style.css HTTP/1.1" 200 -
+[2023-08-17 09:19:27,302][werkzeug][INFO] - 127.0.0.1 - - [17/Aug/2023 09:19:27] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-17 09:19:27,601][werkzeug][INFO] - 127.0.0.1 - - [17/Aug/2023 09:19:27] "[33mGET /static/images/logo/eventnest%20logo%20png.png HTTP/1.1[0m" 404 -
+[2023-08-17 09:19:27,711][werkzeug][INFO] - 127.0.0.1 - - [17/Aug/2023 09:19:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
