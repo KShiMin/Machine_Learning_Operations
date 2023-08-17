@@ -21,29 +21,7 @@ from email.message import EmailMessage
 
 
 import hydra
-from hydra import utils
-
-# csv_data=None
-
-# admin name: admin
-# admin email: admin@gmail.com
-# admin pw: eventnest
-
-# Paypal
-# https://developer.paypal.com/developer/accounts
-# Account: eventnest1@gmail.com
-# Password: eventnest1*
-# The above account if used to create the testing payment account => Adjust Funding Here
-
-# https://www.sandbox.paypal.com/us/home
-# user payment account
-# payment account: eventnestbuyer1@personal.example.com
-# payment password: p!:stYK7
-
-# business account that receive payment
-# business email: eventnestbusiness1@business.example.com
-# business password: p-E"OA8s
-# Check for payment paid/received from the link above
+from hydra import test_utils
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'sweet like candy'
@@ -68,6 +46,13 @@ def before_request():
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('error404.html'), 404
+
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------
+# Zowie
+
 
 # current_path = utils.get_originial_cwd() + "/"
 
@@ -95,9 +80,6 @@ def isweekday(dd):
         return 0
 
 
-
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------
-# Zowie
 
 @app.route('/anomalyDetectionInput', methods=['GET', 'POST'])
 def create_user():
