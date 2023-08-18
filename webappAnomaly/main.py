@@ -7,7 +7,6 @@ import numpy as np
 
 
 from pycaret.anomaly import *
-from pycaret.regression import *
 
 # session timeout
 import flask
@@ -67,10 +66,6 @@ def run_configs(config):
 
     modelFile = '../' + config.pipeline.pipeline1
     anomalyModel = load_model(modelFile)
-
-    # Shi Min's Model loading
-    hdb_modelFile = '../' + config.pipeline.pipeline2
-    hdbModel = load_model(hdb_modelFile)
 
 
 
@@ -178,7 +173,6 @@ def hdb_predict():
     prediction = predict_model(hdbModel, data=hdb_unseen, round = 0)
     prediction = int(prediction.Label[0])
     return render_template('home.html',pred='Expected Bill will be {}'.format(prediction))
-
 
 
 
