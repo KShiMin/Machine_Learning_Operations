@@ -1,0 +1,32 @@
+
+{% extends "base.html" %}
+{% block title %}MLOps - AnomalyDetection{% endblock %}
+
+{% block content %}
+{% from "includes/_formHelper.html" import render_field %}
+
+{% with messages=get_flashed_messages(with_categories=true) %}
+ {% for category, message in messages %}
+  <div class='alert alert-{{category}} text-center alert-dismissible fade show m-auto'>
+    {{ message }}
+   </div>
+ {% endfor %}
+{% endwith %}
+
+<div class="p-5 bg-light">
+    <div class="container-sm col-lg-6 ml-auto">
+
+        <a href="/anomalyDetectionInput"><button type="button" class="btn btn-primary me-3">
+            Anomaly detection
+          </button></a>
+          <a href="/"><button type="button" class="btn btn-primary me-3">
+            Resale price prediction
+          </button></a>
+
+
+
+    </div>
+</div>
+
+{% endblock %}
+
