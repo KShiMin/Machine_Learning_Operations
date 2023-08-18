@@ -23,6 +23,8 @@ from email.message import EmailMessage
 import hydra
 from hydra import test_utils
 
+
+# start command ======= python -m gunicorn -w 4 main:app
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'sweet like candy'
 app.config['UPLOAD_FOLDER'] = 'static/images'
@@ -46,7 +48,6 @@ def before_request():
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('error404.html'), 404
-
 
 
 
@@ -92,6 +93,12 @@ def new_cols(date):
     return daynum
 
 
+# ----------------------------------------------------------------------------------
+
+@app.route('/')
+def home():
+   return render_template('home.html')
+
 
 @app.route('/anomalyDetectionInput', methods=['GET', 'POST'])
 def create_user():
@@ -99,32 +106,29 @@ def create_user():
     signup = signupForm(request.form)
     if request.method == 'POST':
 
+        run_configs()
         processing()
 
         inputvalues = list(request.form.values())
 
         # store new data in shelve to allow for future retraining
-        # users_dict = {}
-        # db = shelve.open('storage.db', 'c')
+        users_dict = {}
+        db = shelve.open('storage.db', 'c')
 
-        # try:
-        #     users_dict = db['Users']
-        # except:
-        #     print("Error in retrieving Users from storage.db.")
+        try:
+            users_dict = db['Users']
+        except:
+            print("Error in retrieving Users from storage.db.")
         
-        
-        
-        # user = account.Account(signup.Fyear.data, signup.Fmonth.data, signup.DEPname.data.upper(), 
-        #                         signup.DIVname.data.upper(), signup.MERname.data.upper(), signup.category.data.upper(), 
-        #                         signup.transDate.data, signup.amount.data)
-        # users_dict[user.get_id()] = user
-        # db['Users'] = users_dict
+        user = account.Account(inputvalues)
+        users_dict[user.get_id()] = user
+        db['Users'] = users_dict
 
-        # db.close()
+        db.close()
 
-        print('new data')
         
 #       put data together
+        print('new data')  
         userNewData = {}
 
         for index, name in enumerate(cols[0:-2]):
