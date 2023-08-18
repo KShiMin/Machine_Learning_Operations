@@ -2,17 +2,18 @@ import uuid
 
 class Account:
 
-    def __init__(self, fyear, fmonth, DEPname, DIVname, merchant, category, trans_dt, amt):
+    # def __init__(self, fyear, fmonth, DEPname, DIVname, merchant, category, trans_dt, amt):
+    def __init__(self,list):
 
         self.__data_id = str(uuid.uuid4())
-        self.__fyear = fyear
-        self.__fmonth = fmonth
-        self.__DEPname = DEPname
-        self.__DIVname = DIVname
-        self.__merchant = merchant
-        self.__category = category
-        self.__trans_dt = trans_dt
-        self.__amt = amt
+        self.__fyear = list[0]
+        self.__fmonth = list[1]
+        self.__DEPname = list[2]
+        self.__DIVname = list[3]
+        self.__merchant = list[4]
+        self.__category = list[5]
+        self.__trans_dt = list[6]
+        self.__amt = list[7]
 
 
     def get_id(self):

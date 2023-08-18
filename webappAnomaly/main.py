@@ -61,11 +61,11 @@ def page_not_found(e):
 def run_configs(config):
     global anomalyModel, cols, csv_data
 
-    dataFilePath = '../' + config.data.processed
+    dataFilePath = config.data.processed
     csv_data = pd.read_csv(dataFilePath)  # Read CSV file
     cols = csv_data.columns
 
-    modelFile = '../' + config.pipeline.pipeline1
+    modelFile = config.pipeline.pipeline1
     anomalyModel = load_model(modelFile)
 
 @hydra.main(config_path='../'+ 'config/process', config_name='anomalyProcess')
