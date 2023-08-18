@@ -67,6 +67,14 @@ def run_configs(config):
     modelFile = '../' + config.pipeline.pipeline1
     anomalyModel = load_model(modelFile)
 
+@hydra.main(config_path='../'+ 'config/process', config_name='anomalyProcess')
+def processing(config):
+    global dpath, tpath, fpath
+
+    dpath = config.date_column
+    tpath = config.text_column
+    fpath = config.float_column
+
 
 
 # --- functions
@@ -78,6 +86,10 @@ def isweekday(dd):
         return 1
     else:  # 5 Sat, 6 Sun
         return 0
+    
+def new_cols(date):
+    daynum = date.strftime('%A'),
+    return daynum
 
 
 
@@ -87,44 +99,57 @@ def create_user():
     signup = signupForm(request.form)
     if request.method == 'POST':
 
+        processing()
+
+        inputvalues = list(request.form.values())
+
         # store new data in shelve to allow for future retraining
-        users_dict = {}
-        db = shelve.open('storage.db', 'c')
+        # users_dict = {}
+        # db = shelve.open('storage.db', 'c')
 
-        try:
-            users_dict = db['Users']
-        except:
-            print("Error in retrieving Users from storage.db.")
+        # try:
+        #     users_dict = db['Users']
+        # except:
+        #     print("Error in retrieving Users from storage.db.")
         
+        
+        
+        # user = account.Account(signup.Fyear.data, signup.Fmonth.data, signup.DEPname.data.upper(), 
+        #                         signup.DIVname.data.upper(), signup.MERname.data.upper(), signup.category.data.upper(), 
+        #                         signup.transDate.data, signup.amount.data)
+        # users_dict[user.get_id()] = user
+        # db['Users'] = users_dict
 
-        user = account.Account(signup.Fyear.data, signup.Fmonth.data, signup.DEPname.data.upper(), 
-                                signup.DIVname.data.upper(), signup.MERname.data.upper(), signup.category.data.upper(), 
-                                signup.transDate.data, signup.amount.data)
-        users_dict[user.get_id()] = user
-        db['Users'] = users_dict
-
-        db.close()
+        # db.close()
 
         print('new data')
+        
+#       put data together
+        userNewData = {}
+
+        for index, name in enumerate(cols[0:-2]):
+            userNewData[name] = inputvalues[index]
+
+        user_df = pd.DataFrame([userNewData])
+        user_df['DayOfWeek'] = 0
+        user_df['isWeekday'] = 0
+
         # pre process data
-        # convert date to datetime64 object
-        transDate = pd.to_datetime(signup.transDate.data)
+        for dd in dpath:
+            dat = user_df[dd].values[0]
+            datobject = pd.to_datetime(dat)
+            user_df[dd] = datobject
+            user_df['DayOfWeek'] = new_cols(datobject)
+            user_df['isWeekday'] = isweekday(datobject)
 
-        # Create a dictionary with original column names
-        userNewData = [{
-            'FISCAL_YR': int(signup.Fyear.data),
-            'FISCAL_MTH': int(signup.Fmonth.data),
-            'DEPT_NAME': signup.DEPname.data.upper(),
-            'DIV_NAME': signup.DIVname.data.upper(),
-            'MERCHANT': signup.MERname.data.upper(),
-            'CAT_DESC': signup.category.data,
-            'TRANS_DT' : transDate,
-            'AMT': float(signup.amount.data),
-            'DayOfWeek': transDate.strftime('%A'),
-            'isWeekday': isweekday(transDate)
-        }]
+        for strings in tpath:
+            user_df[strings] = user_df[strings].str.upper()
+        
+        for flt in fpath:
+            user_df[flt] = user_df[flt].astype(float)
+        
 
-        user_df = pd.DataFrame(userNewData)
+        print(user_df.columns)
 
         # Test codes
         # users_dict = db['Users']
@@ -140,7 +165,6 @@ def create_user():
         pred = prediction.Anomaly[0]
         session['predLabel'] = int(pred)
         print('resultofanomaly : ',pred)
-        # label = int(prediction.Label[0])
         return redirect(url_for('anomalyResults'))
 
 
