@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Programming/School_Related/Machine_Learning_Operations/notebooks/ShiMin/mlruns/389134490055801014/ef9ee8465177492c9ae167487de96377/artifacts
+end_time: 1692327645807
+entry_point_name: ''
+experiment_id: '389134490055801014'
+lifecycle_stage: active
+run_id: ef9ee8465177492c9ae167487de96377
+run_name: Light Gradient Boosting Machine
+run_uuid: ef9ee8465177492c9ae167487de96377
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692327644252
+status: 3
+tags: []
+user_id: Shi Min
