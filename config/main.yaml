@@ -1,11 +1,11 @@
 data:
-  raw: data/raw/sample.csv
+  raw: data/raw/01_hdb_resale_transactions.csv
   processed: data/processed/cleanAnomaly.csv
   final: data/final/final.csv
 
 pipeline:
   pipeline1: models/iforest_pipeline
-
+  pipeline2: models/hdb_lightgbm_pipeline
 
 hydra:
   output_subdir: null  

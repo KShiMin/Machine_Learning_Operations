@@ -1,0 +1,8 @@
+channels:
+- conda-forge
+dependencies:
+- pip<=23.1.2
+- pip:
+  - mlflow==2.4
+  - pycaret==3.0.4
+name: hdb_resale-env
