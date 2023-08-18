@@ -9,3 +9,15 @@ use_columns:
   - AMT
   - DayOfWeek
   - isWeekday
+
+date_column:
+  - TRANS_DT
+
+text_column:
+  - DEPT_NAME
+  - DIV_NAME
+  - MERCHANT
+  - CAT_DESC
+
+float_column:
+  - AMT
