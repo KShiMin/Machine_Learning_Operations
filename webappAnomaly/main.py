@@ -7,6 +7,7 @@ import numpy as np
 
 
 from pycaret.anomaly import *
+from pycaret.regression import *
 
 # session timeout
 import flask
@@ -58,7 +59,7 @@ def page_not_found(e):
 
 @hydra.main(config_path='../'+ 'config', config_name='main')
 def run_configs(config):
-    global anomalyModel, cols, csv_data
+    global anomalyModel, cols, csv_data, hdbModel
 
     dataFilePath = '../' + config.data.processed
     csv_data = pd.read_csv(dataFilePath)  # Read CSV file
@@ -66,6 +67,10 @@ def run_configs(config):
 
     modelFile = '../' + config.pipeline.pipeline1
     anomalyModel = load_model(modelFile)
+
+    # Shi Min's Model loading
+    hdb_modelFile = '../' + config.pipeline.pipeline2
+    hdbModel = load_model(hdb_modelFile)
 
 
 
@@ -165,7 +170,14 @@ def anomalyResults():
 # -----------------------------------------------------------
 # Shi Min's Apps Routes
 
-
+@app.route('/predict_hdb',methods=['POST'])
+def hdb_predict():
+    hdb_features = [x for x in request.form.values()]
+    final = np.array(hdb_features)
+    hdb_unseen = pd.DataFrame([final], columns = cols)
+    prediction = predict_model(hdbModel, data=hdb_unseen, round = 0)
+    prediction = int(prediction.Label[0])
+    return render_template('home.html',pred='Expected Bill will be {}'.format(prediction))
 
 
 

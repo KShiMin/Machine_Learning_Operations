@@ -1,0 +1,22 @@
+
+/*  Pop Up Display CSS for Prediction Results*/
+.popup-box{
+    display: none;
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    width: 40%;
+    padding: 1rem;
+    background-color: #dfccbc;
+    border-radius: 15px;
+}
+
+.popup-body{
+    margin: 1%;
+    border-bottom: .12rem solid white;
+}
+
+.popup-body p{
+    text-align: justify;
+    margin-bottom: 2%;
+}

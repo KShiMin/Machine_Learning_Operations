@@ -1,22 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Predict HDB Resale Price</title>
-  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
-  
-</head>
+{% extends "base.html" %}
 
-<body>
+{% block title %}HDB Resale Price Prediction{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/hdb.css')}}">
+{% endblock %}
+{% block content %}
+
  <div class="login">
 	<h1>Predict HDB Resale Price</h1>
 
      <!-- Form to enter new data for predictions  -->
-    <form action="{{ url_for('predict')}}"method="POST">
+    <form action="{{ url_for('predict_hdb')}}"method="POST">
       <input type="text" name="age" placeholder="Age" required="required" /><br>
     	<input type="text" name="sex" placeholder="Sex" required="required" /><br>
         <input type="text" name="bmi" placeholder="BMI" required="required" /><br>
@@ -32,7 +26,16 @@
   
    
  </div>
- {{pred}}
 
-</body>
-</html>
+<!-- PopUp Box -->
+<div class="popup-box container" id="popup-box">
+  <div class="popup-content">
+      <!-- PopUp Box body -->
+      <div class="popup-body">
+          <p>The HDB Resale Prediction Price is  {{pred}}</p>
+      </div>
+  </div>
+</div>
+
+
+ {% endblock %}

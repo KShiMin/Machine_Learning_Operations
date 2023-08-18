@@ -5,6 +5,7 @@ data:
 
 pipeline:
   pipeline1: models/iforest_pipeline
+  pipeline2: models/hdb_lightgbm_pipeline
 
 
 hydra:
