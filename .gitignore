@@ -100,3 +100,4 @@ mlops_assignment/data/raw/01_hdb_resale_transactions.csvn/build-state.yml
 
 # datasets to ignore
 data/raw/01_hdb_resale_transactions.csv
+/data
