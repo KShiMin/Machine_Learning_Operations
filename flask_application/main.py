@@ -8,7 +8,6 @@ import pandas as pd
 import numpy as np
 
 
-
 from pycaret.anomaly import *
 from pycaret.regression import *
 
@@ -61,7 +60,7 @@ def page_not_found(e):
 
 # current_path = utils.get_originial_cwd() + "/"
 
-@hydra.main(config_path='config/', config_name='main.yaml')
+@hydra.main(config_path='config', config_name='main.yaml')
 def run_configs(config):
 
     print('configfile found')
@@ -177,7 +176,7 @@ def create_user():
             datobject = pd.to_datetime(dat)
             user_df[dd] = datobject
             user_df['DayOfWeek'] = new_cols(datobject)
-            user_df['isWeekday'] = isweekday(datobject)
+            user_df['isWeekday'] = int(isweekday(datobject))
             print('newcols')
 
         for strings in tpath:
@@ -187,7 +186,7 @@ def create_user():
             user_df[flt] = user_df[flt].astype(float)
         
 
-        print(user_df.columns)
+        print(list(user_df.columns.values))
 
         # Test codes
         # users_dict = db['Users']
