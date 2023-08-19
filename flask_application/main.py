@@ -1,7 +1,7 @@
 import os
 from flask import Flask, redirect, url_for, render_template, request, session, flash
 # from forms import createEvent, signupForm, loginForm, forgetpw, changPw,  addOrder, CreateQnForm
-import py_scripts.account as account
+from py_scripts.account import Account
 from py_scripts.hdbForm import HDB 
 import shelve
 import pandas as pd
@@ -27,7 +27,7 @@ import hydra
 from hydra import test_utils
 
 
-# start command ======= python -m gunicorn -w 4 main:app
+# start command ======= python -m gunicorn -w 4 mainf:app
 
 
 app = Flask(__name__)
@@ -156,7 +156,7 @@ def create_user():
         except:
             print("Error in retrieving Users from storage.db.")
         
-        user = account.Account(inputvalues)
+        user = Account(inputvalues)
         users_dict[user.get_id()] = user
         db['Users'] = users_dict
 
