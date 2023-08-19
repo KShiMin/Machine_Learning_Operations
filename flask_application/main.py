@@ -28,6 +28,8 @@ from hydra import test_utils
 
 
 # start command ======= python -m gunicorn -w 4 main:app
+
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'sweet like candy'
 app.config['UPLOAD_FOLDER'] = 'static/images'
@@ -60,7 +62,7 @@ def page_not_found(e):
 
 # current_path = utils.get_originial_cwd() + "/"
 
-@hydra.main(config_path='config', config_name='main.yaml')
+@hydra.main(config_path='../'+'config', config_name='main.yaml')
 def run_configs(config):
 
     print('configfile found')
@@ -87,7 +89,7 @@ def run_configs(config):
     hdbModel = load_model(hdb_modelFile)
 
 
-@hydra.main(config_path='config/process', config_name='anomalyProcess')
+@hydra.main(config_path='../'+'config/process', config_name='anomalyProcess')
 def processing(config):
     global dpath, tpath, fpath
 
