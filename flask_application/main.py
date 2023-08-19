@@ -7,6 +7,8 @@ import shelve
 import pandas as pd
 import numpy as np
 
+import config
+
 
 from pycaret.anomaly import *
 from pycaret.regression import *
