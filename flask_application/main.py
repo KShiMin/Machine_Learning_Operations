@@ -1,8 +1,8 @@
 import os
 from flask import Flask, redirect, url_for, render_template, request, session, flash
 # from forms import createEvent, signupForm, loginForm, forgetpw, changPw,  addOrder, CreateQnForm
-from py_scripts.account import Account
-from py_scripts.hdbForm import HDB 
+from flask_application.py_scripts.account import Account
+from flask_application.py_scripts.hdbForm import HDB 
 import shelve
 import pandas as pd
 import numpy as np
@@ -138,7 +138,7 @@ def home():
 @app.route('/anomalyDetectionInput', methods=['GET', 'POST'])
 def create_user():
     run_configs()
-    from py_scripts.forms import signupForm
+    from flask_application.py_scripts.forms import signupForm
     signup = signupForm(request.form)
     if request.method == 'POST':
 
