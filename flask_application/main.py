@@ -78,14 +78,14 @@ def run_configs(config):
     anomalyModel = load_model(modelFile)
 
     # HDB dynamic form select options preparations
-    hdb_dataFile = config.data.raw
+    hdb_dataFile = config.data.raw  # get raw data from config folder
     hdb = pd.read_csv(hdb_dataFile)
     towns = sorted(hdb['town'].unique())
     storey_ranges = sorted(hdb['storey_range'].unique())
     flat_models = sorted(hdb['flat_model'].unique())
 
     # HDB Model loading
-    hdb_modelFile = config.pipeline.pipeline2
+    hdb_modelFile = config.pipeline.pipeline2 # get necessary pipeline from config folder
     hdbModel = load_model(hdb_modelFile)
 
 
@@ -235,9 +235,9 @@ def toUpper(data):
 @app.route('/hdb_predict', methods=['GET', 'POST'])
 def hdb_predict():
     
-    
     # initalize form fields
     hdbPred = HDB(request.form)
+
     # set form fields option based on historical data
     hdbPred.town.choices = [(town, town) for town in towns]
     hdbPred.storey_range.choices = [(sr, sr) for sr in storey_ranges]
@@ -245,7 +245,7 @@ def hdb_predict():
 
     if request.method == "POST" and hdbPred.validate():
 
-        # Get Datas and do necessary datatype transformations
+        # Get Datas and perform necessary datatype transformations
         results = {
             'block': [toUpper(hdbPred.block.data)],
             'street_name': [toUpper(hdbPred.street_name.data)],
@@ -260,7 +260,7 @@ def hdb_predict():
             'min_dist_mrt': [hdbPred.min_dist_mrt.data]
         }
 
-        # Convert user inputs into a dataframe
+        # Convert user inputs into a dataframe and do prediction
         hdb_unseen = pd.DataFrame(results, columns = results.keys())
         prediction = predict_model(hdbModel, data=hdb_unseen)
         prediction = "{:.2f}".format(float(prediction.prediction_label))
