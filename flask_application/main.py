@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 
 
+
 from pycaret.anomaly import *
 from pycaret.regression import *
 
@@ -60,8 +61,10 @@ def page_not_found(e):
 
 # current_path = utils.get_originial_cwd() + "/"
 
-@hydra.main(config_path='../'+ 'config', config_name='main')
+@hydra.main(config_path='config', config_name='main')
 def run_configs(config):
+
+    print('configfile found')
 
     global anomalyModel, cols, csv_data, hdbModel, towns, storey_ranges, flat_models
 
@@ -85,7 +88,7 @@ def run_configs(config):
     hdbModel = load_model(hdb_modelFile)
 
 
-@hydra.main(config_path='../'+ 'config/process', config_name='anomalyProcess')
+@hydra.main(config_path='config/process', config_name='anomalyProcess')
 def processing(config):
     global dpath, tpath, fpath
 
@@ -114,6 +117,8 @@ def new_cols(date):
 
 @app.route('/')
 def home():
+   print('homepage')
+   run_configs()
    return render_template('home.html')
 
 
@@ -123,7 +128,7 @@ def create_user():
     signup = signupForm(request.form)
     if request.method == 'POST':
 
-        run_configs()
+        
         processing()
 
         inputvalues = list(request.form.values())
@@ -215,7 +220,7 @@ def toUpper(data):
 
 @app.route('/hdb_predict', methods=['GET', 'POST'])
 def hdb_predict():
-    run_configs()
+    
     
     # initalize form fields
     hdbPred = HDB(request.form)
