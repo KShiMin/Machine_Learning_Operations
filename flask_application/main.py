@@ -114,6 +114,7 @@ def new_cols(date):
 
 @app.route('/')
 def home():
+   run_configs()
    return render_template('home.html')
 
 
@@ -123,7 +124,7 @@ def create_user():
     signup = signupForm(request.form)
     if request.method == 'POST':
 
-        run_configs()
+        
         processing()
 
         inputvalues = list(request.form.values())
@@ -215,7 +216,7 @@ def toUpper(data):
 
 @app.route('/hdb_predict', methods=['GET', 'POST'])
 def hdb_predict():
-    run_configs()
+    
     
     # initalize form fields
     hdbPred = HDB(request.form)
