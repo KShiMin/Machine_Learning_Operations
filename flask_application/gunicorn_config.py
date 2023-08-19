@@ -16,8 +16,8 @@ class StandaloneApplication(WSGIApplication):
         return self.application
 
 if __name__ == '__main__':
-    import flask_application.main
-    app = flask_application.main.app
+    import main
+    app = main.app
     options = {
         'bind': '0.0.0.0:8000',
     }
