@@ -1,7 +1,7 @@
 import os
 from flask import Flask, redirect, url_for, render_template, request, session, flash
 # from forms import createEvent, signupForm, loginForm, forgetpw, changPw,  addOrder, CreateQnForm
-from py_scripts import account
+import py_scripts.account as account
 from py_scripts.hdbForm import HDB 
 import shelve
 import pandas as pd
