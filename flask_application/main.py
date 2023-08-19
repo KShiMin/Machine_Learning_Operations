@@ -8,7 +8,6 @@ import pandas as pd
 import numpy as np
 
 
-
 from pycaret.anomaly import *
 from pycaret.regression import *
 
@@ -29,6 +28,8 @@ from hydra import test_utils
 
 
 # start command ======= python -m gunicorn -w 4 main:app
+
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'sweet like candy'
 app.config['UPLOAD_FOLDER'] = 'static/images'
@@ -61,7 +62,7 @@ def page_not_found(e):
 
 # current_path = utils.get_originial_cwd() + "/"
 
-@hydra.main(config_path='config', config_name='main')
+@hydra.main(config_path='config', config_name='main.yaml')
 def run_configs(config):
 
     print('configfile found')
@@ -118,12 +119,25 @@ def new_cols(date):
 @app.route('/')
 def home():
    print('homepage')
-   run_configs()
+   current_directory = os.path.dirname(os.path.abspath(__file__))
+
+    # List all items (files and directories) in the current directory
+   all_items = os.listdir(current_directory)
+
+    # Filter out only the directories from the list
+   folders = [item for item in all_items if os.path.isdir(os.path.join(current_directory, item))]
+
+    # Print the list of folder names
+   for folder in folders:
+       print(folder)
+
+   
    return render_template('home.html')
 
 
 @app.route('/anomalyDetectionInput', methods=['GET', 'POST'])
 def create_user():
+    run_configs()
     from py_scripts.forms import signupForm
     signup = signupForm(request.form)
     if request.method == 'POST':
@@ -157,8 +171,6 @@ def create_user():
             userNewData[name] = inputvalues[index]
 
         user_df = pd.DataFrame([userNewData])
-        user_df['DayOfWeek'] = 0
-        user_df['isWeekday'] = 0
 
         # pre process data
         for dd in dpath:
@@ -166,7 +178,8 @@ def create_user():
             datobject = pd.to_datetime(dat)
             user_df[dd] = datobject
             user_df['DayOfWeek'] = new_cols(datobject)
-            user_df['isWeekday'] = isweekday(datobject)
+            user_df['isWeekday'] = int(isweekday(datobject))
+            print('newcols')
 
         for strings in tpath:
             user_df[strings] = user_df[strings].str.upper()
@@ -175,7 +188,7 @@ def create_user():
             user_df[flt] = user_df[flt].astype(float)
         
 
-        print(user_df.columns)
+        print(list(user_df.columns.values))
 
         # Test codes
         # users_dict = db['Users']
@@ -184,6 +197,7 @@ def create_user():
         
 
         # perform perdiction
+        print(user_df)
         prediction = predict_model(anomalyModel, data=user_df)
         print(prediction.Anomaly)
         print(prediction.Anomaly_Score)
