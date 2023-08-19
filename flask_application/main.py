@@ -130,12 +130,13 @@ def home():
    for folder in folders:
        print(folder)
 
-   run_configs()
+   
    return render_template('home.html')
 
 
 @app.route('/anomalyDetectionInput', methods=['GET', 'POST'])
 def create_user():
+    run_configs()
     from py_scripts.forms import signupForm
     signup = signupForm(request.form)
     if request.method == 'POST':
