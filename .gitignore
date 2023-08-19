@@ -93,10 +93,5 @@ target/
 outputs
 
 # datasets to ignore
-mlops_assignment/data/raw/01_hdb_resale_transactions.csvn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-
-
-# datasets to ignore
-data/raw/01_hdb_resale_transactions.csv
