@@ -27,7 +27,7 @@ import hydra
 from hydra import test_utils
 
 
-# start command ======= python -m gunicorn -w 4 main:app
+# start command ======= python -m gunicorn -w 4 mainf:app
 
 
 app = Flask(__name__)
