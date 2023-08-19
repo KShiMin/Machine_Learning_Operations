@@ -61,7 +61,7 @@ def page_not_found(e):
 
 # current_path = utils.get_originial_cwd() + "/"
 
-@hydra.main(config_path='config', config_name='main')
+@hydra.main(config_path='config/main.yaml')
 def run_configs(config):
 
     print('configfile found')
