@@ -118,6 +118,18 @@ def new_cols(date):
 @app.route('/')
 def home():
    print('homepage')
+   current_directory = os.path.dirname(os.path.abspath(__file__))
+
+    # List all items (files and directories) in the current directory
+   all_items = os.listdir(current_directory)
+
+    # Filter out only the directories from the list
+   folders = [item for item in all_items if os.path.isdir(os.path.join(current_directory, item))]
+
+    # Print the list of folder names
+   for folder in folders:
+       print(folder)
+
    run_configs()
    return render_template('home.html')
 
@@ -167,6 +179,7 @@ def create_user():
             user_df[dd] = datobject
             user_df['DayOfWeek'] = new_cols(datobject)
             user_df['isWeekday'] = isweekday(datobject)
+            print('newcols')
 
         for strings in tpath:
             user_df[strings] = user_df[strings].str.upper()
@@ -184,6 +197,7 @@ def create_user():
         
 
         # perform perdiction
+        print(user_df)
         prediction = predict_model(anomalyModel, data=user_df)
         print(prediction.Anomaly)
         print(prediction.Anomaly_Score)
