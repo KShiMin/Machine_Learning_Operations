@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Programming/School_Related/Machine_Learning_Operations/notebooks/ShiMin/mlruns/389134490055801014/8e9df61950af4364a6c2497958038086/artifacts
+end_time: 1692459788997
+entry_point_name: ''
+experiment_id: '389134490055801014'
+lifecycle_stage: active
+run_id: 8e9df61950af4364a6c2497958038086
+run_name: Dummy Regressor
+run_uuid: 8e9df61950af4364a6c2497958038086
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692459786022
+status: 3
+tags: []
+user_id: Shi Min
