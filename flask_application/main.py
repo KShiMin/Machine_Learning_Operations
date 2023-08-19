@@ -61,7 +61,7 @@ def page_not_found(e):
 
 # current_path = utils.get_originial_cwd() + "/"
 
-@hydra.main(config_path='config/main.yaml')
+@hydra.main(config_path='config/', config_name='main.yaml')
 def run_configs(config):
 
     print('configfile found')
@@ -169,8 +169,6 @@ def create_user():
             userNewData[name] = inputvalues[index]
 
         user_df = pd.DataFrame([userNewData])
-        user_df['DayOfWeek'] = 0
-        user_df['isWeekday'] = 0
 
         # pre process data
         for dd in dpath:
