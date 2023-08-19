@@ -62,7 +62,7 @@ def page_not_found(e):
 
 # current_path = utils.get_originial_cwd() + "/"
 
-@hydra.main(config_path='../'+ 'config', config_name='main')
+@hydra.main(config_path='config', config_name='main')
 def run_configs(config):
 
     global anomalyModel, cols, csv_data, hdbModel, towns, storey_ranges, flat_models
