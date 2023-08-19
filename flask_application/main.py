@@ -62,7 +62,7 @@ def page_not_found(e):
 
 # current_path = utils.get_originial_cwd() + "/"
 
-@hydra.main(config_path='../'+'config', config_name='main.yaml')
+@hydra.main(config_path='config', config_name='main.yaml')
 def run_configs(config):
 
     print('configfile found')
@@ -89,7 +89,7 @@ def run_configs(config):
     hdbModel = load_model(hdb_modelFile)
 
 
-@hydra.main(config_path='../'+'config/process', config_name='anomalyProcess')
+@hydra.main(config_path='config/process', config_name='anomalyProcess')
 def processing(config):
     global dpath, tpath, fpath
 
