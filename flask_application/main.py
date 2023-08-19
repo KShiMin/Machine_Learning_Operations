@@ -69,26 +69,26 @@ def run_configs(config):
     global anomalyModel, cols, csv_data, hdbModel, towns, storey_ranges, flat_models
 
     # Zowie
-    dataFilePath = '../' + config.data.processed
+    dataFilePath = config.data.processed
     csv_data = pd.read_csv(dataFilePath)  # Read CSV file
     cols = csv_data.columns
 
-    modelFile = '../' + config.pipeline.pipeline1
+    modelFile = config.pipeline.pipeline1
     anomalyModel = load_model(modelFile)
 
     # HDB dynamic form select options preparations
-    hdb_dataFile = '../' + config.data.raw
+    hdb_dataFile = config.data.raw
     hdb = pd.read_csv(hdb_dataFile)
     towns = sorted(hdb['town'].unique())
     storey_ranges = sorted(hdb['storey_range'].unique())
     flat_models = sorted(hdb['flat_model'].unique())
 
     # HDB Model loading
-    hdb_modelFile = '../' + config.pipeline.pipeline2
+    hdb_modelFile = config.pipeline.pipeline2
     hdbModel = load_model(hdb_modelFile)
 
 
-@hydra.main(config_path='../'+ 'config/process', config_name='anomalyProcess')
+@hydra.main(config_path='config/process', config_name='anomalyProcess')
 def processing(config):
     global dpath, tpath, fpath
 
