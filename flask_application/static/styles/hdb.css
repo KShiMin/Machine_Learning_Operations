@@ -1,0 +1,34 @@
+.hdb {
+  width: 50%;
+  margin: 2% auto;
+}
+
+form div {
+  margin: 1.5% auto;
+}
+/*  Pop Up Display CSS for Prediction Results*/
+.popup-box {
+  display: none;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  width: 40%;
+  padding: 1rem;
+  background-color: #0d6efd;
+  border-radius: 15px;
+}
+
+.popup-body p {
+  margin: 1%;
+  font-size: 3em;
+  color: beige;
+}
+
+.popup-body p b {
+  font-weight: 700;
+}
+
+.popup-body p {
+  text-align: justify;
+  margin-bottom: 2%;
+}

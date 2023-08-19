@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}HDB Resale Price Prediction{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/hdb.css')}}">
+{% endblock %}
+
+{% block content %}
+{% from "includes/_formHelper.html" import render_field %}
+<div class="hdb">
+  <h1>Predict HDB Resale Price</h1>
+
+  <!-- Form to enter new data for predictions  -->
+  <form action="{{ url_for('hdb_predict')}}" method="POST">
+    <div class="form-group">
+      {{ render_field(form.block, class="form-control") }}
+    </div>
+    <div class="form-group">
+      {{ render_field(form.street_name, class="form-control") }}
+    </div>
+    <div class="form-group">
+      {{ render_field(form.town, class="form-control") }}
+    </div>
+    <div class="form-group">
+      {{ render_field(form.postal_code, class="form-control") }}
+    </div>
+    <div class="form-group">
+      {{ render_field(form.month, class="form-control") }}
+    </div>
+    <div class="form-group">
+      {{ render_field(form.storey_range, class="form-control") }}
+    </div>
+    <div class="form-group">
+      {{ render_field(form.floor_area_sqm, class="form-control") }}
+    </div>
+    <div class="form-group">
+      {{ render_field(form.flat_model, class="form-control") }}
+    </div>
+    <div class="form-group">
+      {{ render_field(form.lease_commence_date, class="form-control") }}
+    </div>
+    <div class="form-group">
+      {{ render_field(form.cbd_dist, class="form-control") }}
+    </div>
+    <div class="form-group">
+      {{ render_field(form.min_dist_mrt, class="form-control") }}
+    </div>
+    <div class="text-center">
+      <input type="submit" value="Predict!" class="btn btn-primary" />
+    </div>
+
+  </form>
+
+</div>
+
+<!-- PopUp Box -->
+<div class="popup-box container" id="popup-box">
+  <div class="popup-content">
+    <!-- PopUp Box body -->
+    <div class="popup-body">
+      <p>The HDB Resale Prediction Price is $<b>{{pred}}</b></p>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Display Pop-up box information
+  window.addEventListener('load', (event) => {
+    if ("{{check}}" === "true") {
+      $("#popup-box").css("display", "block");
+    }
+  })
+</script>
+
+{% endblock %}
