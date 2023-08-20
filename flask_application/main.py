@@ -288,7 +288,7 @@ def hdb_predict():
 if __name__ == '__main__':
     run_configs()
     
-    app.run(debug=True, port=8080)
+    app.run(debug=True)
 
 
     
