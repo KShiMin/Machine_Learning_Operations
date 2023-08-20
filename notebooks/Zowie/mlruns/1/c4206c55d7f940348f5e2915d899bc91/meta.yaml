@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/zowie/OneDrive/Desktop/MLOPS/assignmentPoetry/AnomalyPrediction/notebooks/mlruns/1/c4206c55d7f940348f5e2915d899bc91/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: c4206c55d7f940348f5e2915d899bc91
+run_name: Session Initialized 2570
+run_uuid: c4206c55d7f940348f5e2915d899bc91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692460390159
+status: 1
+tags: []
+user_id: zowie

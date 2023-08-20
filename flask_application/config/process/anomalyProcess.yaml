@@ -19,5 +19,9 @@ text_column:
   - MERCHANT
   - CAT_DESC
 
+int_column:
+ - FISCAL_YR
+ - FISCAL_MTH
+
 float_column:
   - AMT
