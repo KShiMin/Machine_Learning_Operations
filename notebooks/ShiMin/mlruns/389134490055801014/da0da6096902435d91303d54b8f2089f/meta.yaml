@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Programming/School_Related/Machine_Learning_Operations/notebooks/ShiMin/mlruns/389134490055801014/da0da6096902435d91303d54b8f2089f/artifacts
+end_time: 1692527852959
+entry_point_name: ''
+experiment_id: '389134490055801014'
+lifecycle_stage: active
+run_id: da0da6096902435d91303d54b8f2089f
+run_name: Lasso Least Angle Regression
+run_uuid: da0da6096902435d91303d54b8f2089f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692527850670
+status: 3
+tags: []
+user_id: Shi Min
