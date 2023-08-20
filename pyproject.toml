@@ -13,7 +13,6 @@ kaleido = "0.2.1"
 ydata-profiling = "^4.5.1"
 gunicorn = "^21.2.0"
 pycaret = "^3.0.4"
-orjson = "3.9.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
