@@ -19,7 +19,7 @@ if __name__ == '__main__':
     import main
     app = main.app
     options = {
-        'bind': '0.0.0.0:1000',
+        'bind': '0.0.0.0:10000',
         'workers': 4,
     }
     StandaloneApplication(app, options).run()
