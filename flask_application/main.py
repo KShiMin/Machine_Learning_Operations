@@ -8,7 +8,8 @@ import pandas as pd
 import numpy as np
 
 
-from pycaret.anomaly import *
+from pycaret.anomaly import load_model as anom_load_model
+from pycaret.anomaly import predict_model as anom_predict_model
 from pycaret.regression import *
 
 # session timeout
@@ -75,7 +76,7 @@ def run_configs(config):
     cols = csv_data.columns
 
     modelFile = config.pipeline.pipeline1
-    anomalyModel = load_model(modelFile)
+    anomalyModel = anom_load_model(modelFile)
 
     # HDB dynamic form select options preparations
     hdb_dataFile = config.data.raw  # get raw data from config folder
@@ -91,11 +92,12 @@ def run_configs(config):
 
 @hydra.main(config_path='config/process', config_name='anomalyProcess')
 def processing(config):
-    global dpath, tpath, fpath
+    global dpath, tpath, fpath, intpath
 
     dpath = config.date_column
     tpath = config.text_column
     fpath = config.float_column
+    intpath = config.int_column
 
 
 
@@ -110,7 +112,7 @@ def isweekday(dd):
         return 0
     
 def new_cols(date):
-    daynum = date.strftime('%A'),
+    daynum = date.strftime('%A')
     return daynum
 
 
@@ -119,17 +121,19 @@ def new_cols(date):
 @app.route('/')
 def home():
    print('homepage')
-   current_directory = os.path.dirname(os.path.abspath(__file__))
+#    current_directory = os.path.dirname(os.path.abspath(__file__))
 
-    # List all items (files and directories) in the current directory
-   all_items = os.listdir(current_directory)
+#     # List all items (files and directories) in the current directory
+#    all_items = os.listdir(current_directory)
 
-    # Filter out only the directories from the list
-   folders = [item for item in all_items if os.path.isdir(os.path.join(current_directory, item))]
+#     # Filter out only the directories from the list
+#    folders = [item for item in all_items if os.path.isdir(os.path.join(current_directory, item))]
 
-    # Print the list of folder names
-   for folder in folders:
-       print(folder)
+#     # Print the list of folder names
+#    for folder in folders:
+#        print(folder)
+
+   run_configs()
 
    
    return render_template('home.html')
@@ -137,7 +141,6 @@ def home():
 
 @app.route('/anomalyDetectionInput', methods=['GET', 'POST'])
 def create_user():
-    run_configs()
     from py_scripts.forms import signupForm
     signup = signupForm(request.form)
     if request.method == 'POST':
@@ -146,6 +149,7 @@ def create_user():
         processing()
 
         inputvalues = list(request.form.values())
+        print(inputvalues)
 
         # store new data in shelve to allow for future retraining
         users_dict = {}
@@ -173,22 +177,31 @@ def create_user():
         user_df = pd.DataFrame([userNewData])
 
         # pre process data
+        for it in intpath:
+            user_df[it] = user_df[it].astype(int)
+
         for dd in dpath:
             dat = user_df[dd].values[0]
             datobject = pd.to_datetime(dat)
             user_df[dd] = datobject
-            user_df['DayOfWeek'] = new_cols(datobject)
-            user_df['isWeekday'] = int(isweekday(datobject))
-            print('newcols')
 
         for strings in tpath:
             user_df[strings] = user_df[strings].str.upper()
         
         for flt in fpath:
             user_df[flt] = user_df[flt].astype(float)
-        
 
-        print(list(user_df.columns.values))
+        
+        # Calculate DayOfWeek and isWeekday
+        user_df['DayOfWeek'] = user_df['TRANS_DT'].apply(new_cols)
+        user_df['isWeekday'] = user_df['TRANS_DT'].apply(isweekday).astype(int)
+        
+        
+        print(cols)
+        print(user_df)
+        print(user_df.columns.tolist())
+        print(user_df['isWeekday'])
+       
 
         # Test codes
         # users_dict = db['Users']
@@ -197,8 +210,7 @@ def create_user():
         
 
         # perform perdiction
-        print(user_df)
-        prediction = predict_model(anomalyModel, data=user_df)
+        prediction = anom_predict_model(anomalyModel, data=user_df)
         print(prediction.Anomaly)
         print(prediction.Anomaly_Score)
 
@@ -276,7 +288,7 @@ def hdb_predict():
 if __name__ == '__main__':
     run_configs()
     
-    app.run(debug=True, port=8080)
+    app.run(debug=True)
 
 
     
