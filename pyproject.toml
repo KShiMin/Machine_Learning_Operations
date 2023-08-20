@@ -10,8 +10,9 @@ dvc = "^2.10.0"
 hydra-core = "^1.1.1"
 pdoc3 = "^0.10.0"
 kaleido = "0.2.1"
-pycaret = "3.0.0"
+pycaret = "3.0.4"
 ydata-profiling = "^4.5.1"
+gunicorn = "^21.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"

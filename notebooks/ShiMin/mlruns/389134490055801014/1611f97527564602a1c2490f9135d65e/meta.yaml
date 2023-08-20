@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Programming/School_Related/Machine_Learning_Operations/notebooks/ShiMin/mlruns/389134490055801014/1611f97527564602a1c2490f9135d65e/artifacts
+end_time: 1692527826038
+entry_point_name: ''
+experiment_id: '389134490055801014'
+lifecycle_stage: active
+run_id: 1611f97527564602a1c2490f9135d65e
+run_name: Linear Regression
+run_uuid: 1611f97527564602a1c2490f9135d65e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692527823605
+status: 3
+tags: []
+user_id: Shi Min
