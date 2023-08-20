@@ -247,6 +247,8 @@ def toUpper(data):
 
 @app.route('/hdb_predict', methods=['GET', 'POST'])
 def hdb_predict():
+
+    run_configs()
     
     # initalize form fields
     hdbPred = HDB(request.form)
