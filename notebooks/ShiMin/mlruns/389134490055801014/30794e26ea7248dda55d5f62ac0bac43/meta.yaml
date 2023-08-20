@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Programming/School_Related/Machine_Learning_Operations/notebooks/ShiMin/mlruns/389134490055801014/30794e26ea7248dda55d5f62ac0bac43/artifacts
+end_time: 1692459763239
+entry_point_name: ''
+experiment_id: '389134490055801014'
+lifecycle_stage: active
+run_id: 30794e26ea7248dda55d5f62ac0bac43
+run_name: Huber Regressor
+run_uuid: 30794e26ea7248dda55d5f62ac0bac43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692459760310
+status: 3
+tags: []
+user_id: Shi Min

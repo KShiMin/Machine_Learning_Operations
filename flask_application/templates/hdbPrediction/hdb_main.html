@@ -54,12 +54,17 @@
 
 </div>
 
-<!-- PopUp Box -->
+<!-- PopUp Box - Prediction Value Holder -->
 <div class="popup-box container" id="popup-box">
   <div class="popup-content">
     <!-- PopUp Box body -->
     <div class="popup-body">
-      <p>The HDB Resale Prediction Price is $<b>{{pred}}</b></p>
+      <p>The HDB Resale Prediction Price is $<b>123{{pred}}</b></p>
+    </div>
+    <div class="text-center">
+      <a href="{{url_for('hdb_predict')}}">
+        <input type="submit" value="Predict Again!" class="btn btn-primary" />
+      </a>
     </div>
   </div>
 </div>
