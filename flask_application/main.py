@@ -147,6 +147,7 @@ def create_user():
     if request.method == 'POST':
 
         
+        run_configs()
         processing()
 
         inputvalues = list(request.form.values())
