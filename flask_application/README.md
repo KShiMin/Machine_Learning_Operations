@@ -18,7 +18,7 @@ folder structure:
 cookiecutter https://github.com/khuyentran1401/data-science-template --checkout dvc-poetry 
 
 machine_learning_operations
-> data
+>> data
 > models
 > notebooks
 > docs
