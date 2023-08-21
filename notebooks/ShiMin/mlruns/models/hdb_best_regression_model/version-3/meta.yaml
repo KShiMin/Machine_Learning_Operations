@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1692605393746
+current_stage: None
+description: null
+last_updated_timestamp: 1692605393746
+name: hdb_best_regression_model
+run_id: e1e6c06ad2aa4563ab101d53eb160940
+run_link: null
+source: file:///C:/Programming/School_Related/Machine_Learning_Operations/notebooks/ShiMin/mlruns/389134490055801014/e1e6c06ad2aa4563ab101d53eb160940/artifacts
+status: READY
+status_message: null
+user_id: null
+version: 3
