@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Programming/School_Related/Machine_Learning_Operations/notebooks/ShiMin/mlruns/389134490055801014/b05c42f3d6d94a7b86ae74d922232734/artifacts
+end_time: 1692602939327
+entry_point_name: ''
+experiment_id: '389134490055801014'
+lifecycle_stage: active
+run_id: b05c42f3d6d94a7b86ae74d922232734
+run_name: Orthogonal Matching Pursuit
+run_uuid: b05c42f3d6d94a7b86ae74d922232734
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692602937341
+status: 3
+tags: []
+user_id: Shi Min
