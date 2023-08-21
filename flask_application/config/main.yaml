@@ -4,7 +4,7 @@ data:
   final: data/final/final.csv
 
 pipeline:
-  pipeline1: models/iforest_pipeline
+  pipeline1: models/svm_pipeline
   pipeline2: models/hdb_lightgbm_pipeline
 
 hydra:

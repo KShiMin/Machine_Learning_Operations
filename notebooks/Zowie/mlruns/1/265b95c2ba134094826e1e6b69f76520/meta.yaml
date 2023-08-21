@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/zowie/OneDrive/Desktop/MLOPS/assignmentPoetry/AnomalyPrediction/notebooks/mlruns/1/265b95c2ba134094826e1e6b69f76520/artifacts
+end_time: 1692603178995
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 265b95c2ba134094826e1e6b69f76520
+run_name: Isolation Forest
+run_uuid: 265b95c2ba134094826e1e6b69f76520
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692603178903
+status: 3
+tags: []
+user_id: zowie

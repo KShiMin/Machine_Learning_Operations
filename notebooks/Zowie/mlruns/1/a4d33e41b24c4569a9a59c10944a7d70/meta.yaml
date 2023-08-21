@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/zowie/OneDrive/Desktop/MLOPS/assignmentPoetry/AnomalyPrediction/notebooks/mlruns/1/a4d33e41b24c4569a9a59c10944a7d70/artifacts
+end_time: 1692604164953
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: a4d33e41b24c4569a9a59c10944a7d70
+run_name: One-class SVM detector
+run_uuid: a4d33e41b24c4569a9a59c10944a7d70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692604164845
+status: 3
+tags: []
+user_id: zowie

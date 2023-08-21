@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/zowie/OneDrive/Desktop/MLOPS/assignmentPoetry/AnomalyPrediction/notebooks/mlruns/1/817c2664e6a74c56b22d80a3439b5bc5/artifacts
+end_time: 1692603086418
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 817c2664e6a74c56b22d80a3439b5bc5
+run_name: K-Nearest Neighbors Detector
+run_uuid: 817c2664e6a74c56b22d80a3439b5bc5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692603086309
+status: 3
+tags: []
+user_id: zowie
