@@ -1,5 +1,8 @@
 # Machine Learning Operations
 
+## Webapp URL: https://zsmlml.onrender.com
+Web Application will go idle after 15 minutes of inactivity, if you want to view please contact either Shi Min or Zowie. Thank you
+
 ## Tools used in this project
 * [Poetry](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f): Dependency management - [article](https://mathdatasimplified.com/2023/06/12/poetry-a-better-way-to-manage-python-dependencies/)
 * [hydra](https://hydra.cc/): Manage configuration files - [article](https://mathdatasimplified.com/2023/05/25/stop-hard-coding-in-a-data-science-project-use-configuration-files-instead/)
@@ -63,6 +66,3 @@ C:\path_to_empty_dir>cookiecutter https://github.com/khuyentran1401/data-science
     ├── storage.db.dat              
     └── storage.db.dir              
 ```
-
-## Webapp URL: https://zsmlml.onrender.com
-Web Application will go idle after 15 minutes of inactivity, if you want to view please contact either Shi Min or Zowie. Thank you
