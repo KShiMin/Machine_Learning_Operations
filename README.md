@@ -15,7 +15,6 @@
 
 1. Specify the desired port to use under flask_application/gunicorn_config.py
 ```python
-...
     options = {
         'bind': '0.0.0.0:<port_number>',
         'workers': 4,
