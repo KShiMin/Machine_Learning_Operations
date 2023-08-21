@@ -10,7 +10,8 @@ import numpy as np
 
 from pycaret.anomaly import load_model as anom_load_model
 from pycaret.anomaly import predict_model as anom_predict_model
-from pycaret.regression import *
+from pycaret.regression import load_model as reg_load_model
+from pycaret.regression import predict_model as reg_pred_model
 
 # session timeout
 import flask
@@ -81,13 +82,13 @@ def run_configs(config):
     # HDB dynamic form select options preparations
     hdb_dataFile = config.data.raw  # get raw data from config folder
     hdb = pd.read_csv(hdb_dataFile)
-    towns = sorted(hdb['town'].unique())
-    storey_ranges = sorted(hdb['storey_range'].unique())
-    flat_models = sorted(hdb['flat_model'].unique())
+    towns = sorted(hdb['town'].unique()) # sort unique values from town column for form select options
+    storey_ranges = sorted(hdb['storey_range'].unique()) # sort unique values from storey_range column for form select options
+    flat_models = sorted(hdb['flat_model'].unique()) # sort unique values from flat_model column for form select options
 
     # HDB Model loading
     hdb_modelFile = config.pipeline.pipeline2 # get necessary pipeline from config folder
-    hdbModel = load_model(hdb_modelFile)
+    hdbModel = reg_load_model(hdb_modelFile)
 
 
 @hydra.main(config_path='config/process', config_name='anomalyProcess')
@@ -276,7 +277,7 @@ def hdb_predict():
 
         # Convert user inputs into a dataframe and do prediction
         hdb_unseen = pd.DataFrame(results, columns = results.keys())
-        prediction = predict_model(hdbModel, data=hdb_unseen)
+        prediction = reg_pred_model(hdbModel, data=hdb_unseen)
         prediction = "{:.2f}".format(float(prediction.prediction_label))
 
         # provide prediction value back to html file and set check = true to display popup container

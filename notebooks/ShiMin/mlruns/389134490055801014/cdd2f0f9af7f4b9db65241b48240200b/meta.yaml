@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Programming/School_Related/Machine_Learning_Operations/notebooks/ShiMin/mlruns/389134490055801014/cdd2f0f9af7f4b9db65241b48240200b/artifacts
+end_time: 1692527847691
+entry_point_name: ''
+experiment_id: '389134490055801014'
+lifecycle_stage: active
+run_id: cdd2f0f9af7f4b9db65241b48240200b
+run_name: Lasso Regression
+run_uuid: cdd2f0f9af7f4b9db65241b48240200b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1692527845115
+status: 3
+tags: []
+user_id: Shi Min
