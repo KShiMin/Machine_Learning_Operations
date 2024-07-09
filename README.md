@@ -1,3 +1,4 @@
+# This repository is deprecated and will be archived as of 9th July 2024
 # Machine Learning Operations
 
 ## Webapp URL: https://zsmlml.onrender.com
